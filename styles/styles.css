@@ -1,3 +1,10 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --border-color: 1px solid black;
     --text-color: white;
@@ -27,6 +34,7 @@ main img {
     border: var(--border-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -39,11 +47,6 @@ main {
 
 aside {
     width: 500px;
-    margin: 0 auto;
-    border: 10px double goldenrod;
-    padding: 5px 10px;
-    background-color: #800020;
-    color: var(--text-color);
     text-align: var(--text-align);
 }
 
@@ -60,4 +63,14 @@ footer {
     margin-top: 3em;
     border-top: var(--border-color);
     text-align: var(--text-align);
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 0 solid black;
+    padding: 1rem;
+    background-color: rgb(0, 139, 139);
+    color: beige;
 }
