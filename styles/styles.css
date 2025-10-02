@@ -16,7 +16,7 @@ nav {
     background-color: darkblue;
     padding: var(--padding);
     display: flex;
-    place-content: space-evenly center;
+    place-content: center space-evenly;
 }
 
 nav a {
