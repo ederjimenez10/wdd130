@@ -26,12 +26,13 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: white;
+    color: black;
         padding: 25px;
     text-align: center;
-    text-shadow: 1px 1px black,
-        0 0 5px black,
-        0 0 5px var(--accent1-color);
+    text-shadow: 1px 1px white,
+        0 0 5px white,
+        0 0 5px var(--accent1-color),
+        0 0 5px var(--accent2-color);
 }
 
 nav, p, section, article {
