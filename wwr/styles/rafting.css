@@ -16,7 +16,6 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
-    /* background-color: white; */
     background: linear-gradient(to bottom, #fafbfb, white 70%);
 }
 
@@ -147,7 +146,6 @@ header {
     gap: 20px;
     grid-template: 1fr / 1fr 1fr 1fr 1fr 1fr;
     place-content: center;
-    /* place-items: center; */
     padding: 20px;
     text-align: center;
     color: var(--primary-color);
