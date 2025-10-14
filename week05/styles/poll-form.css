@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    font-size: 1.1em;
+    color: #333;
+    background-color:#fff;
+}
+
+header {
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 1rem;
+    color:darkslateblue;
+    text-align: center;
+}
+
+form {
+    width: 550px;
+    margin: 2px auto;
+    padding: 7px;
+    border: 10px inset darksalmon;
+    border-radius:5%;
+    background-color: whitesmoke;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: 10px;
+    margin: 1rem;
+    border: 4px double steelblue;
+    padding: 0.5rem;
+}
+
+fieldset legend {
+    color: darkolivegreen;
+    padding: 0.3em;
+    font-size: 1.25em;
+}
+
+label, input, button, select, textarea {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+input:focus, textarea:focus {
+    background-color:rgba(119, 199, 200, 0.225);
+}
+
+button {
+    margin: 1rem;
+    background-color: steelblue;
+    color: #fff;
+    border: outset black;
+        
+    border-radius: 0.6rem;
+    padding: .75rem;
+    font-size: 1.4rem;
+}
+
+button:hover {
+    color: blanchedalmond;
+    background-color: cadetblue;
+}
+/* 
+textarea:placeholder-shown {
+    text-shadow: #ffcc00 1px 0 10px;
+} */
+
+label {
+    text-align: right;
+    padding-right: 3px;
+}
+
+input, select, textarea {
+    padding: 0.3rem;
+    font-size: 1.15em;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
