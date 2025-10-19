@@ -206,14 +206,17 @@ input, textarea {
     font-size: 1.05em;
 }
 
-input[type=submit] {
+button {
     background-color: var(--accent1-color);
     border-radius: 35%;
+    margin: 1rem;
+    padding: .75rem;
+    font-size: 1.4rem;
 }
 
-input[type=submit]:hover {
+button:hover {
     background-color: var(--primary-color);
-    color: #fff
+    color: #fff;
 }
 
 .employees {
