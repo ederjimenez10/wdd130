@@ -255,7 +255,7 @@ input[type=submit]:hover {
     border: 2px solid var(--accent1-color);
 }
 
-.action a {
+.action p {
     grid-area: 2 / 1 / 3 / 3;
 }
 
