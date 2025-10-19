@@ -184,7 +184,7 @@ footer {
 form {
     display: grid;
     gap: 5px;
-    height: 300px auto;
+    height: 300px;
 }
 
 .form-item {
